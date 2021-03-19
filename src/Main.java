@@ -39,9 +39,7 @@ public class Main {
         }
         if(klasapostaci.equals("wojownik")){
             System.out.println(NazwaGracza + "\nhp: " + HpGracza + "\nMana: " + Mana + "\ndamage: " + DmgGracza + "\nxp: " + xp + "\n" + "broń: " + bron +"\n" + "klasa: " + klasapostaci + "\n" );
-
-        }if(klasapostaci.equals("łucznik")){
-            System.out.println(NazwaGracza + "\nhp: " + HpGracza + "\ndamage: " + DmgGracza + "\nxp: " + xp + "\n" + "broń: " + bron +"\n"+ "klasa: " + klasapostaci + "\n");
+            
         }
     }
     private static void StatystkiPrzeciwnika() {
